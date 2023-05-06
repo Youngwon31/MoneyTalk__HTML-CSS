@@ -1,3 +1,3 @@
 # HTML and CSS 2023
 
-# a personal project
+This is my personal project staring code for the first time.
