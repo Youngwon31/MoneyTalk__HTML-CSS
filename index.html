@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to MoneyTalk</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column"> 
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column"> 
+                <span>11%</span>
+                <i class="fa-solid fa-battery-quarter fa-2x"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+           <h1 class="welcome-header__title">Welcome to MoneyTalk</h1> 
+           <p class="welcome-header__text"> If you have MoneyTalk Account, log in with your email or phone number.
+           </p>
+        </header>
+
+        <form action="friends.html" method="get" class="login-form">
+            <input name="username" class="login-form__input" required placeholder="Email or phone number" />
+            <input name="password" class="login-form__input" required placeholder="Password" />
+            <button class="login-form__btn" >Log in</button>
+            <button class="login-form__btn" >Sign in</button>
+            <a href="#" class="login-form__a">Find MoneyTalk Account or Password</a>
+        </form>
+
+        <script src="https://kit.fontawesome.com/bc37af81b3.js" crossorigin="anonymous"></script>
+    </body>
+</html>
