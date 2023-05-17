@@ -31,5 +31,7 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color:rgba(0, 0, 0, 0.5)
+    color:rgba(0, 0, 0, 0.5);
+    align-items: center;
 }
+
